@@ -4,6 +4,9 @@
 
 ![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Claude Code Skill](https://img.shields.io/badge/Claude_Code-Skill-blueviolet)
+![Cline Compatible](https://img.shields.io/badge/Cline-Compatible-blue)
+![Cursor Compatible](https://img.shields.io/badge/Cursor-Compatible-black)
+![Windsurf Compatible](https://img.shields.io/badge/Windsurf-Compatible-teal)
 ![AgentSkills Standard](https://img.shields.io/badge/AgentSkills-Standard-green)
 ![HappyCapy](https://img.shields.io/badge/Built_by-HappyCapy-orange)
 
@@ -22,7 +25,7 @@
 加上一句你现在最焦虑的话
 换来一份**真正能用的债务作战地图**
 
-[功能模块](#功能模块) · [安装](#安装) · [触发词](#触发词) · [算法支撑](#算法支撑) · [合规边界](#合规边界)
+[功能模块](#功能模块) · [安装](#安装) · [Claude Code](#claude-code官方-cli) · [Cline](#cline-vs-code-扩展) · [Cursor](#cursor) · [Windsurf](#windsurf-codeium) · [触发词](#触发词) · [合规边界](#合规边界)
 
 [中文](#中文宣言) · [English](#english) · [Español](#español) · [Deutsch](#deutsch) · [日本語](#日本語) · [Русский](#русский) · [Português](#português)
 
@@ -44,11 +47,102 @@
 
 ## 安装
 
+本 Skill 核心文件为 `tiantai-loan.md`，纯 Markdown 格式，兼容所有主流 AI 编程助手。
+
+---
+
+### Claude Code（官方 CLI）
+
 ```bash
 cp tiantai-loan.md ~/.claude/skills/tiantai-loan.md
 ```
 
-安装后无需重启，下次对话直接触发。
+安装后无需重启，下次对话输入触发词即可激活。
+
+---
+
+### HappyCapy
+
+```bash
+cp tiantai-loan.md ~/.claude/skills/tiantai-loan.md
+```
+
+路径与 Claude Code 共享。在 HappyCapy 会话中直接使用触发词即可。
+
+---
+
+### Cline（VS Code 扩展）
+
+**方式一：全局自定义指令（推荐，永久生效）**
+
+1. 打开 VS Code → Cline 扩展面板
+2. 点击右上角齿轮 ⚙ → **Custom Instructions**
+3. 将 `tiantai-loan.md` 全文内容粘贴进去
+4. 保存，立即生效
+
+**方式二：项目级规则文件**
+
+```bash
+cp tiantai-loan.md .clinerules
+```
+
+将 `.clinerules` 放在项目根目录，仅对当前项目生效。
+
+---
+
+### OpenCline / Roo Code / 其他 Cline 分支
+
+与 Cline 安装方式相同，均支持 `.clinerules` 项目文件或 Custom Instructions 粘贴：
+
+```bash
+cp tiantai-loan.md .clinerules
+```
+
+---
+
+### Cursor
+
+**方式一：全局规则（对所有项目生效）**
+
+1. 打开 Cursor → **Settings** → **Rules for AI**
+2. 将 `tiantai-loan.md` 全文粘贴进 **User Rules** 区域
+3. 保存
+
+**方式二：项目级规则**
+
+```bash
+cp tiantai-loan.md .cursorrules
+```
+
+放在项目根目录。Cursor 会自动读取该文件作为上下文规则。
+
+---
+
+### Windsurf（Codeium）
+
+```bash
+cp tiantai-loan.md .windsurfrules
+```
+
+放在项目根目录即可。或在 Windsurf 设置中的 **Global Rules** 粘贴全文。
+
+---
+
+### Continue.dev
+
+编辑 `~/.continue/config.json`，在 `systemMessage` 字段追加 `tiantai-loan.md` 全文内容：
+
+```json
+{
+  "systemMessage": "<此处粘贴 tiantai-loan.md 全文内容>"
+}
+```
+
+---
+
+### 通用方式（任意支持系统提示的工具）
+
+将 `tiantai-loan.md` 全文粘贴至任意 AI 工具的 **System Prompt / Custom Instructions / 自定义指令** 区域，即可激活狂躁精算师。
 
 ---
 
