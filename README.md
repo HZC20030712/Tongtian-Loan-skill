@@ -3,6 +3,7 @@
 > *"羊毛耗尽，寸草不生！"*
 
 ![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
 ![Openclaw](https://img.shields.io/badge/Openclaw-✓-ff6b35)
 ![Hermes](https://img.shields.io/badge/Hermes-✓-9b59b6)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-✓-blueviolet)
