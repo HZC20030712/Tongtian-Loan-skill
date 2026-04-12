@@ -60,18 +60,6 @@ cp tiantai-loan.md ~/.claude/skills/tiantai-loan.md
 cp tiantai-loan.md ~/.claude/skills/tiantai-loan.md
 ```
 
-路径与 Claude Code 共享，直接使用触发词激活。
-
-### Cline（VS Code）/ OpenCline / Roo Code
-
-**方式一：全局生效（推荐）**
-打开 Cline 面板 → 齿轮 ⚙ → Custom Instructions → 粘贴 `tiantai-loan.md` 全文
-
-**方式二：项目级**
-```bash
-cp tiantai-loan.md .clinerules
-```
-
 ## 功能模块
 
 | 模块 | 说明 |
