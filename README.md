@@ -47,15 +47,11 @@
 cp tiantai-loan.md ~/.openclaw/skills/tiantai-loan.md
 ```
 
-或在 Openclaw 设置 → **Skills** → 导入本文件。
-
 ### Hermes ⭐ 推荐
 
 ```bash
 cp tiantai-loan.md ~/.hermes/skills/tiantai-loan.md
 ```
-
-或在 Hermes 会话设置 → **Custom Skills** → 粘贴 `tiantai-loan.md` 全文。
 
 ### Claude Code
 
@@ -104,7 +100,7 @@ cp tiantai-loan.md .clinerules
 债务分析
 贷款规划
 还款计划
-我要借钱
+我借钱了
 ```
 
 ---
