@@ -1,6 +1,6 @@
 # 通天贷·借贷策略优化.skill
 
-> *"羊毛耗尽，寸草不生！"*
+> *"羊毛薅尽，寸草不生！"*
 
 ![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
@@ -140,57 +140,6 @@ tiantai-loan-skill/
 └── docs/
     └── 通天贷-开发文档.md    # 完整开发规格说明书
 ```
----
-
-## 多语言宣言
-
-### 中文
-
-> 羊毛耗尽，寸草不生。
-> 平台是割草机，你是那片草地。每一个周期，利率在悄悄生长，额度在悄悄萎缩。
-> 在被收割完毕之前，让精算师替你先算清楚。
-
-### English
-
-> *When the platforms have harvested your last basis point, not a single yield remains.*
-> The lenders are the shearers. You are the field.
-> Every cycle, rates creep up and credit lines quietly shrink.
-> Before the next harvest, let the actuary run the numbers first.
-
-### Español
-
-> *Cuando las plataformas han exprimido hasta el último punto básico, no queda ni un solo rendimiento.*
-> Los bancos son las segadoras. Tú eres el campo.
-> Cada ciclo, las tasas suben en silencio y las líneas de crédito se reducen.
-> Antes de la próxima cosecha, deja que el actuario calcule primero.
-
-### Deutsch
-
-> *Wenn die Plattformen den letzten Basispunkt abgeerntet haben, bleibt kein Ertrag übrig.*
-> Die Banken sind die Mäher. Du bist das Feld.
-> Jeden Zyklus steigen die Zinsen still, und die Kreditlinien schrumpfen.
-> Lass den Aktuar die Zahlen durchrechnen — bevor die nächste Ernte kommt.
-
-### 日本語
-
-> *プラットフォームが最後の一ベーシスポイントまで刈り取った時、収益はひとつも残らない。*
-> 貸し手は刈り取り機、あなたはその畑だ。
-> 毎サイクル、金利は静かに上がり、与信枠は音もなく縮む。
-> 次の収穫が来る前に、アクチュアリーに先に計算させよ。
-
-### Русский
-
-> *Когда платформы собрали последний базисный пункт, не остаётся ни единого колоска.*
-> Кредиторы — это жатки. Ты — поле.
-> Каждый цикл ставки ползут вверх, а кредитные линии тихо сжимаются.
-> Пусть актуарий посчитает раньше, чем придёт следующий урожай.
-
-### Português
-
-> *Quando as plataformas colheram o último ponto base, não sobra nem um grão de lucro.*
-> Os credores são as colheitadeiras. Você é o campo.
-> A cada ciclo, as taxas sobem e as linhas de crédito minguam em silêncio.
-> Deixe o atuário fazer as contas primeiro — antes da próxima colheita chegar.
 
 ---
 
