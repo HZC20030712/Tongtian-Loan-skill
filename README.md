@@ -1,4 +1,4 @@
-# 通天贷·贷无忧
+# 通天贷·贷无忧.skill
 
 > *"平台是割草机，你是那片草地。每一轮薅完，寸草不生——除非你先学会拿镰刀。"*
 
@@ -81,39 +81,6 @@ cp tiantai-loan.md ~/.claude/skills/tiantai-loan.md
 cp tiantai-loan.md .clinerules
 ```
 
-### Cursor
-
-**方式一：全局规则**
-Settings → Rules for AI → User Rules → 粘贴全文
-
-**方式二：项目级**
-```bash
-cp tiantai-loan.md .cursorrules
-```
-
-### Windsurf（Codeium）
-
-```bash
-cp tiantai-loan.md .windsurfrules
-```
-
-或在 Windsurf 设置 → Global Rules → 粘贴全文。
-
-### Continue.dev
-
-编辑 `~/.continue/config.json`：
-```json
-{
-  "systemMessage": "<粘贴 tiantai-loan.md 全文>"
-}
-```
-
-### 通用方式
-
-将 `tiantai-loan.md` 全文粘贴至任意工具的 **System Prompt / Custom Instructions / 自定义指令** 区，即可激活狂躁精算师。
-
----
-
 ## 功能模块
 
 | 模块 | 说明 |
@@ -180,14 +147,6 @@ tiantai-loan-skill/
 └── docs/
     └── 通天贷-开发文档.md    # 完整开发规格说明书
 ```
-
----
-
-## 开发团队
-
-由 HappyCapy Agent Teams 联合开发：
-**Orchestrator**（总协调）· **algo-agent**（数学算法）· **persona-agent**（人设与交互）· **data-agent**（数据结构与功能模块）
-
 ---
 
 ## 多语言宣言
