@@ -3,12 +3,9 @@
 > *"羊毛耗尽，寸草不生！"*
 
 ![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Claude Code](https://img.shields.io/badge/Claude_Code-✓-blueviolet)
 ![Openclaw](https://img.shields.io/badge/Openclaw-✓-ff6b35)
 ![Hermes](https://img.shields.io/badge/Hermes-✓-9b59b6)
-![Cline](https://img.shields.io/badge/Cline-✓-0078d4)
-![Cursor](https://img.shields.io/badge/Cursor-✓-black)
-![Windsurf](https://img.shields.io/badge/Windsurf-✓-06b6d4)
+![Claude Code](https://img.shields.io/badge/Claude_Code-✓-blueviolet)
 
 ---
 
