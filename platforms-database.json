@@ -1,0 +1,529 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-04-12",
+    "disclaimer": "以下利率数据均为 2025-2026 年市场参考行情，仅供辅助分析使用。实际批复利率因申请人资质、平台政策、市场环境等因素动态变化，请以各平台官方公示及合同条款为准。本数据库不构成任何金融建议或贷款推荐。",
+    "dataSource": "公开市场行情综合整理",
+    "totalPlatforms": 18
+  },
+  "platforms": [
+    {
+      "platformId": "ICBC-CONSUMER",
+      "name": "工商银行·融e借",
+      "shortName": "工行融e借",
+      "type": "bank",
+      "subType": "consumer_loan",
+      "issuer": "中国工商银行",
+      "currentRates": {
+        "min": 0.036,
+        "max": 0.072,
+        "typical": 0.045,
+        "unit": "annual_percentage_rate"
+      },
+      "loanAmountRange": {
+        "min": 10000,
+        "max": 200000,
+        "currency": "CNY"
+      },
+      "tenorRange": {
+        "minMonths": 3,
+        "maxMonths": 36
+      },
+      "creditCheckType": "hard",
+      "repaymentMethod": "equal_installment",
+      "requiresAccount": true,
+      "onlineApplication": true,
+      "notes": "需持有工行储蓄卡或代发工资账户，白名单邀请制为主。利率浮动，实际利率与用户综合评分挂钩。2025年参考最低3.6%，普通客户约4.5%~5.5%。"
+    },
+    {
+      "platformId": "CCB-KUAIRONG",
+      "name": "建设银行·快贷",
+      "shortName": "建行快贷",
+      "type": "bank",
+      "subType": "consumer_loan",
+      "issuer": "中国建设银行",
+      "currentRates": {
+        "min": 0.038,
+        "max": 0.075,
+        "typical": 0.048,
+        "unit": "annual_percentage_rate"
+      },
+      "loanAmountRange": {
+        "min": 5000,
+        "max": 300000,
+        "currency": "CNY"
+      },
+      "tenorRange": {
+        "minMonths": 3,
+        "maxMonths": 36
+      },
+      "creditCheckType": "hard",
+      "repaymentMethod": "equal_installment",
+      "requiresAccount": true,
+      "onlineApplication": true,
+      "notes": "建行手机银行用户优先，依托龙卡信用卡额度或工资代发记录进行资质评估。优质客户可获4%以内利率。"
+    },
+    {
+      "platformId": "CMB-EZHIJIE",
+      "name": "招商银行·闪电贷",
+      "shortName": "招行闪电贷",
+      "type": "bank",
+      "subType": "consumer_loan",
+      "issuer": "招商银行",
+      "currentRates": {
+        "min": 0.042,
+        "max": 0.08,
+        "typical": 0.055,
+        "unit": "annual_percentage_rate"
+      },
+      "loanAmountRange": {
+        "min": 10000,
+        "max": 250000,
+        "currency": "CNY"
+      },
+      "tenorRange": {
+        "minMonths": 3,
+        "maxMonths": 36
+      },
+      "creditCheckType": "hard",
+      "repaymentMethod": "equal_installment",
+      "requiresAccount": true,
+      "onlineApplication": true,
+      "notes": "招行掌上生活 APP 可申请，持招行信用卡或储蓄卡客户资质更佳。典型利率约5.5%，优质客户可低至4.2%。"
+    },
+    {
+      "platformId": "ABC-WANGJIE",
+      "name": "农业银行·网捷贷",
+      "shortName": "农行网捷贷",
+      "type": "bank",
+      "subType": "consumer_loan",
+      "issuer": "中国农业银行",
+      "currentRates": {
+        "min": 0.038,
+        "max": 0.072,
+        "typical": 0.046,
+        "unit": "annual_percentage_rate"
+      },
+      "loanAmountRange": {
+        "min": 5000,
+        "max": 200000,
+        "currency": "CNY"
+      },
+      "tenorRange": {
+        "minMonths": 1,
+        "maxMonths": 24
+      },
+      "creditCheckType": "hard",
+      "repaymentMethod": "equal_installment|bullet",
+      "requiresAccount": true,
+      "onlineApplication": true,
+      "notes": "农行掌银专属产品，代发工资、公积金代缴用户获批概率更高。额度由系统根据客户综合贡献度评定。"
+    },
+    {
+      "platformId": "BOC-SUIRONG",
+      "name": "中国银行·随心智贷",
+      "shortName": "中行随心智贷",
+      "type": "bank",
+      "subType": "consumer_loan",
+      "issuer": "中国银行",
+      "currentRates": {
+        "min": 0.038,
+        "max": 0.076,
+        "typical": 0.050,
+        "unit": "annual_percentage_rate"
+      },
+      "loanAmountRange": {
+        "min": 10000,
+        "max": 300000,
+        "currency": "CNY"
+      },
+      "tenorRange": {
+        "minMonths": 3,
+        "maxMonths": 36
+      },
+      "creditCheckType": "hard",
+      "repaymentMethod": "equal_installment",
+      "requiresAccount": false,
+      "onlineApplication": true,
+      "notes": "中行手机银行申请，无需必须持有中行账户，但持卡客户审批更快。白名单邀请制为主要获客方式。"
+    },
+    {
+      "platformId": "PSBC-XINDAI",
+      "name": "邮储银行·邮你贷",
+      "shortName": "邮储邮你贷",
+      "type": "bank",
+      "subType": "consumer_loan",
+      "issuer": "中国邮政储蓄银行",
+      "currentRates": {
+        "min": 0.042,
+        "max": 0.082,
+        "typical": 0.058,
+        "unit": "annual_percentage_rate"
+      },
+      "loanAmountRange": {
+        "min": 5000,
+        "max": 100000,
+        "currency": "CNY"
+      },
+      "tenorRange": {
+        "minMonths": 3,
+        "maxMonths": 36
+      },
+      "creditCheckType": "hard",
+      "repaymentMethod": "equal_installment",
+      "requiresAccount": true,
+      "onlineApplication": true,
+      "notes": "邮储三农和城市普惠客户为主要目标群体，小城市和农村地区覆盖较广。利率较大行略高。"
+    },
+    {
+      "platformId": "WECHAT-WEILIDAE",
+      "name": "微粒贷",
+      "shortName": "微粒贷",
+      "type": "consumer_finance",
+      "subType": "consumer_loan",
+      "issuer": "微众银行（腾讯系）",
+      "currentRates": {
+        "min": 0.072,
+        "max": 0.216,
+        "typical": 0.144,
+        "unit": "annual_percentage_rate"
+      },
+      "loanAmountRange": {
+        "min": 500,
+        "max": 300000,
+        "currency": "CNY"
+      },
+      "tenorRange": {
+        "minMonths": 1,
+        "maxMonths": 24
+      },
+      "creditCheckType": "hard",
+      "repaymentMethod": "equal_installment|bullet",
+      "requiresAccount": false,
+      "onlineApplication": true,
+      "notes": "微信钱包入口，白名单邀请制，仅受邀用户可见入口。利率日息0.02%~0.06%（年化7.2%~21.6%）。典型白领用户约日息0.04%（年化14.4%）。额度与腾讯生态数据挂钩。申请为硬查询。"
+    },
+    {
+      "platformId": "ALI-JIEBEILIXI",
+      "name": "借呗（支付宝消费贷）",
+      "shortName": "借呗",
+      "type": "consumer_finance",
+      "subType": "consumer_loan",
+      "issuer": "蚂蚁消费金融/网商银行（阿里系）",
+      "currentRates": {
+        "min": 0.054,
+        "max": 0.198,
+        "typical": 0.126,
+        "unit": "annual_percentage_rate"
+      },
+      "loanAmountRange": {
+        "min": 100,
+        "max": 300000,
+        "currency": "CNY"
+      },
+      "tenorRange": {
+        "minMonths": 1,
+        "maxMonths": 24
+      },
+      "creditCheckType": "soft_then_hard",
+      "repaymentMethod": "equal_installment|bullet",
+      "requiresAccount": false,
+      "onlineApplication": true,
+      "notes": "支付宝借呗，日息约0.015%~0.055%（年化5.4%~19.8%）。查看额度为软查询，实际借款触发硬查询。芝麻分高（720+）用户可获较低利率。2023年起部分用户产品迁移至蚂蚁消费金融。"
+    },
+    {
+      "platformId": "JD-BAITIAO",
+      "name": "京东金条",
+      "shortName": "金条",
+      "type": "consumer_finance",
+      "subType": "consumer_loan",
+      "issuer": "京东科技（盛京银行/众邦银行合作）",
+      "currentRates": {
+        "min": 0.072,
+        "max": 0.216,
+        "typical": 0.144,
+        "unit": "annual_percentage_rate"
+      },
+      "loanAmountRange": {
+        "min": 500,
+        "max": 200000,
+        "currency": "CNY"
+      },
+      "tenorRange": {
+        "minMonths": 1,
+        "maxMonths": 24
+      },
+      "creditCheckType": "hard",
+      "repaymentMethod": "equal_installment|bullet",
+      "requiresAccount": false,
+      "onlineApplication": true,
+      "notes": "京东 APP 金融板块，与京东白条区别：金条是消费贷（可提现），白条是分期消费（不可提现）。日息0.02%~0.06%，典型用户约0.04%（年化14.4%）。额度与京东消费数据相关。"
+    },
+    {
+      "platformId": "BAIDU-DUXIAOMAN",
+      "name": "度小满·有钱花",
+      "shortName": "度小满",
+      "type": "consumer_finance",
+      "subType": "consumer_loan",
+      "issuer": "度小满金融（百度系）",
+      "currentRates": {
+        "min": 0.072,
+        "max": 0.216,
+        "typical": 0.144,
+        "unit": "annual_percentage_rate"
+      },
+      "loanAmountRange": {
+        "min": 500,
+        "max": 200000,
+        "currency": "CNY"
+      },
+      "tenorRange": {
+        "minMonths": 3,
+        "maxMonths": 24
+      },
+      "creditCheckType": "hard",
+      "repaymentMethod": "equal_installment",
+      "requiresAccount": false,
+      "onlineApplication": true,
+      "notes": "原百度金融，现度小满金融，有钱花为其消费信贷产品。日息0.02%~0.06%，优质客户约年化7.2%可获，普通用户约14.4%。利率透明度一般，需仔细确认合同。"
+    },
+    {
+      "platformId": "MEITUAN-SHANGCHENG",
+      "name": "美团·生活费",
+      "shortName": "美团生活费",
+      "type": "consumer_finance",
+      "subType": "consumer_loan",
+      "issuer": "美团金融（北京三快）",
+      "currentRates": {
+        "min": 0.108,
+        "max": 0.216,
+        "typical": 0.162,
+        "unit": "annual_percentage_rate"
+      },
+      "loanAmountRange": {
+        "min": 500,
+        "max": 50000,
+        "currency": "CNY"
+      },
+      "tenorRange": {
+        "minMonths": 1,
+        "maxMonths": 12
+      },
+      "creditCheckType": "hard",
+      "repaymentMethod": "equal_installment|bullet",
+      "requiresAccount": false,
+      "onlineApplication": true,
+      "notes": "面向美团活跃用户，日息约0.03%~0.06%（年化10.8%~21.6%）。额度普遍较小，适合小额短期周转，利率偏高，不建议用于大额置换。"
+    },
+    {
+      "platformId": "CMB-CREDITCARD",
+      "name": "招商银行信用卡",
+      "shortName": "招行信用卡",
+      "type": "credit_card",
+      "subType": "credit_card_revolving",
+      "issuer": "招商银行",
+      "currentRates": {
+        "min": 0.1825,
+        "max": 0.1825,
+        "typical": 0.1825,
+        "unit": "annual_percentage_rate",
+        "note": "日息万分之五，年化18.25%，全行统一标准"
+      },
+      "loanAmountRange": {
+        "min": 3000,
+        "max": 500000,
+        "currency": "CNY",
+        "note": "信用额度因人而异"
+      },
+      "tenorRange": {
+        "minMonths": 1,
+        "maxMonths": 24,
+        "note": "账单分期另有手续费"
+      },
+      "creditCheckType": "hard",
+      "repaymentMethod": "minimum_payment|full_payment|installment",
+      "requiresAccount": false,
+      "onlineApplication": true,
+      "notes": "招行信用卡透支年化18.25%（日息0.05%）。账单分期手续费约0.6%/月（年化约7.2%~13%，低于透支利率）。建议账单分期代替循环信用以节省利息。有「全民生活」APP 管理分期。"
+    },
+    {
+      "platformId": "BOCOM-CREDITCARD",
+      "name": "交通银行信用卡",
+      "shortName": "交行信用卡",
+      "type": "credit_card",
+      "subType": "credit_card_revolving",
+      "issuer": "交通银行",
+      "currentRates": {
+        "min": 0.1825,
+        "max": 0.1825,
+        "typical": 0.1825,
+        "unit": "annual_percentage_rate",
+        "note": "日息万分之五，国家统一标准"
+      },
+      "loanAmountRange": {
+        "min": 3000,
+        "max": 300000,
+        "currency": "CNY"
+      },
+      "tenorRange": {
+        "minMonths": 1,
+        "maxMonths": 24
+      },
+      "creditCheckType": "hard",
+      "repaymentMethod": "minimum_payment|full_payment|installment",
+      "requiresAccount": false,
+      "onlineApplication": true,
+      "notes": "交行沃尔玛卡、太平洋卡等均按央行放开后统一日息0.05%标准，账单分期手续费0.6%/月。持沃德白金及以上客户偶有利率优惠活动。"
+    },
+    {
+      "platformId": "ICBC-CREDITCARD",
+      "name": "工商银行信用卡",
+      "shortName": "工行信用卡",
+      "type": "credit_card",
+      "subType": "credit_card_revolving",
+      "issuer": "中国工商银行",
+      "currentRates": {
+        "min": 0.1825,
+        "max": 0.1825,
+        "typical": 0.1825,
+        "unit": "annual_percentage_rate"
+      },
+      "loanAmountRange": {
+        "min": 3000,
+        "max": 800000,
+        "currency": "CNY"
+      },
+      "tenorRange": {
+        "minMonths": 1,
+        "maxMonths": 24
+      },
+      "creditCheckType": "hard",
+      "repaymentMethod": "minimum_payment|full_payment|installment",
+      "requiresAccount": false,
+      "onlineApplication": true,
+      "notes": "工行牡丹卡系列，额度上限较高（钻石卡可达80万）。账单分期手续费0.6%/月。工行配套融e借利率远低于信用卡透支，高余额持卡人可考虑融e借置换信用卡账单。"
+    },
+    {
+      "platformId": "ALIPAY-HUABEI",
+      "name": "花呗（支付宝先享后付）",
+      "shortName": "花呗",
+      "type": "credit_card",
+      "subType": "bnpl_credit",
+      "issuer": "蚂蚁消费金融（阿里系）",
+      "currentRates": {
+        "min": 0.0,
+        "max": 0.1825,
+        "typical": 0.1825,
+        "unit": "annual_percentage_rate",
+        "note": "免息期内0%；逾期或分期后日息0.05%，年化18.25%"
+      },
+      "loanAmountRange": {
+        "min": 500,
+        "max": 50000,
+        "currency": "CNY"
+      },
+      "tenorRange": {
+        "minMonths": 1,
+        "maxMonths": 24,
+        "note": "3/6/12/24期，含分期手续费"
+      },
+      "creditCheckType": "soft",
+      "repaymentMethod": "full_payment|installment",
+      "requiresAccount": false,
+      "onlineApplication": true,
+      "notes": "支付宝花呗为先享后付产品，月底账单期内全额还清免息。分期手续费约0.5%~0.7%/月（年化6%~8.4%）。逾期后日息0.05%。2023年起部分用户迁移至蚂蚁消费金融，产品形态有所变化。"
+    },
+    {
+      "platformId": "PROVIDENT-HOUSING-TIER1",
+      "name": "住房公积金贷款（一线城市参考）",
+      "shortName": "公积金房贷",
+      "type": "provident_fund",
+      "subType": "housing_loan",
+      "issuer": "各地住房公积金管理中心",
+      "currentRates": {
+        "min": 0.026,
+        "max": 0.031,
+        "typical": 0.029,
+        "unit": "annual_percentage_rate",
+        "note": "以2025年LPR调整后参考利率，5年期以上公积金贷款利率约2.85%~3.1%，各城市略有差异"
+      },
+      "loanAmountRange": {
+        "min": 100000,
+        "max": 1200000,
+        "currency": "CNY",
+        "note": "最高额度因城市和缴存年限不同，北京/上海可达120万"
+      },
+      "tenorRange": {
+        "minMonths": 12,
+        "maxMonths": 360,
+        "note": "最长30年，且不超过退休年龄"
+      },
+      "creditCheckType": "hard",
+      "repaymentMethod": "equal_installment|equal_principal",
+      "requiresAccount": false,
+      "onlineApplication": false,
+      "notes": "政策性低利率贷款，仅用于购买自住住房。利率远低于商业贷款，为最优先使用的融资渠道。需连续缴存公积金满6个月或12个月（各地不同）。2025年5年期以上公积金贷款参考利率约2.85%~3.1%（请以各地公积金中心公告为准）。"
+    },
+    {
+      "platformId": "CITIC-XINDAI",
+      "name": "中信银行·信秒贷",
+      "shortName": "中信信秒贷",
+      "type": "bank",
+      "subType": "consumer_loan",
+      "issuer": "中信银行",
+      "currentRates": {
+        "min": 0.045,
+        "max": 0.09,
+        "typical": 0.060,
+        "unit": "annual_percentage_rate"
+      },
+      "loanAmountRange": {
+        "min": 5000,
+        "max": 200000,
+        "currency": "CNY"
+      },
+      "tenorRange": {
+        "minMonths": 3,
+        "maxMonths": 36
+      },
+      "creditCheckType": "hard",
+      "repaymentMethod": "equal_installment",
+      "requiresAccount": false,
+      "onlineApplication": true,
+      "notes": "中信银行手机银行申请，支持非中信客户申请。优质客户利率约4.5%~6%，普通客户约7%~9%。需上传收入证明材料。"
+    },
+    {
+      "platformId": "PINGAN-XINDAI",
+      "name": "平安银行·平安贷",
+      "shortName": "平安贷",
+      "type": "bank",
+      "subType": "consumer_loan",
+      "issuer": "平安银行",
+      "currentRates": {
+        "min": 0.054,
+        "max": 0.108,
+        "typical": 0.072,
+        "unit": "annual_percentage_rate"
+      },
+      "loanAmountRange": {
+        "min": 10000,
+        "max": 500000,
+        "currency": "CNY"
+      },
+      "tenorRange": {
+        "minMonths": 12,
+        "maxMonths": 60
+      },
+      "creditCheckType": "hard",
+      "repaymentMethod": "equal_installment",
+      "requiresAccount": false,
+      "onlineApplication": true,
+      "notes": "平安银行主打「新一贷」系列，无需抵押，凭收入流水申请。利率相对股份行中偏高，但审批速度快、额度较高（可达50万）。适合有稳定收入但急需资金的用户。"
+    }
+  ],
+  "rateHistory": {
+    "lpr_1y_2025": 0.031,
+    "lpr_5y_2025": 0.036,
+    "note": "LPR 为贷款市场报价利率，2025年参考值，消费贷利率普遍在 LPR+X 基础上定价，请以中国人民银行最新公告为准"
+  }
+}
