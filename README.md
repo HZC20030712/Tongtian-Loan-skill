@@ -1,6 +1,6 @@
 # 通天贷·贷无忧.skill
 
-> *"平台是割草机，你是那片草地。每一轮薅完，寸草不生——除非你先学会拿镰刀。"*
+> *"羊毛耗尽，寸草不生！"*
 
 ![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-✓-blueviolet)
@@ -17,7 +17,6 @@
 你借了 A 还 B，借了 B 还 C，利息在黑暗里复利滚动？
 你不知道哪笔该先还，哪笔该置换，征信查询次数还剩几发？
 
-**羊毛耗尽，寸草不生——在平台收割完毕之前，让精算师替你先割一刀。**
 
 把你的负债清单扔过来（平台名、利率、余额、还款日、月供），
 加上一句最焦虑的话，
