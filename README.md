@@ -143,4 +143,4 @@ tiantai-loan-skill/
 
 ---
 
-*通天贷·贷无忧 v1.0 · 2026-04-12 · Built with HappyCapy Agent Teams*
+*通天贷 v1.0 · 2026-04-12
