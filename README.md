@@ -1,6 +1,8 @@
 # 通天贷·借贷策略优化.skill
 
-> *"羊毛薅尽，寸草不生！"*
+> *羊毛薅尽，寸草不生！*
+> *在风控的红线上跳舞，让资本家为你打工！*
+> > *对各大借贷平台实行“三光政策”（免息券抢光、低息钱借光、风控底线踩光）*
 
 ![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
